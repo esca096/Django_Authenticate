@@ -1,0 +1,13 @@
+{% autoescape off %}
+Welcome to ESCANOR System
+==========================
+
+Hi!!! {{ name }}
+==========================
+
+Confirm your address email please
+================================
+
+lien: https//{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+{% endautoescape %}
